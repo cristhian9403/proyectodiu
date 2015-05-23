@@ -1,43 +1,11 @@
 html,
 
 .fondo{
-    background: url(../imagenes/fondo.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.fondogrado{
-    background: url(../imagenes/fondo.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.fondoprimero{
-     background: url(../imagenes/tia.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 100% 100%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-
-.fondotercero{
-<<<<<<< HEAD
-     background: url(../imagenes/juego.jpg) no-repeat;
-=======
-    background: url(../imagenes/tia.jpg) no-repeat;
->>>>>>> origin/cristhian9403
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    font-family: 'Open Sans', sans-serif;
-}
-
+            background: url(../imagenes/fondo.jpg) no-repeat;
+            background-attachment: fixed;
+            background-size: cover;   
+            font-family: 'Open Sans', sans-serif;
+            }
 
 .sobre {
 max-width:70%;
