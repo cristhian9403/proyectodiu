@@ -16,9 +16,21 @@ html,
     font-family: 'Open Sans', sans-serif;
 }
 
-.fondotercero{
+.fondoprimero{
+     background: url(../imagenes/tia.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: 100% 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.fondotercero{
+     background: url(../imagenes/juego.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
 
