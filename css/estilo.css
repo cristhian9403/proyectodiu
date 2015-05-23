@@ -16,6 +16,13 @@ html,
     font-family: 'Open Sans', sans-serif;
 }
 
+.fondotercero{
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .sobre {
 max-width:70%;
 max-height:70%;
