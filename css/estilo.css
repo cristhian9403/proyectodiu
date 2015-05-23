@@ -1,6 +1,7 @@
 html,
 
 .fondo{
+<<<<<<< HEAD
     background: url(../imagenes/fondo.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -34,6 +35,13 @@ html,
     font-family: 'Open Sans', sans-serif;
 }
 
+=======
+            background: url(../imagenes/fondo.jpg) no-repeat;
+            background-attachment: fixed;
+            background-size: cover;   
+            font-family: 'Open Sans', sans-serif;
+            }
+>>>>>>> origin/cristhian9403
 
 .sobre {
 max-width:70%;
