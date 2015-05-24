@@ -14,16 +14,16 @@ html,
     font-family: 'Open Sans', sans-serif;
 }
 
-<<<<<<< HEAD
 .fondoprimero{
-     background: url(../imagenes/tia.jpg) no-repeat;
+     background: url(../imagenes/first.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 100% 100%;
     font-family: 'Open Sans', sans-serif;
 }
+
 .fondosegundo{
-     background: url(../imagenes/peques.jpg) no-repeat;
+     background: url(../imagenes/tia.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 100% 100%;
@@ -31,14 +31,14 @@ html,
 }
 
 .fondotercero{
-    background: url(../imagenes/tia.jpg) no-repeat;
+    background: url(../imagenes/treses.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
 .fondocuarto{
-    background: url(../imagenes/siiko.jpg) no-repeat;
+    background: url(../imagenes/haha.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -46,22 +46,13 @@ html,
 }
 
 .fondoquinto{
-    background: url(../imagenes/casa.jpg) no-repeat;
+    background: url(../imagenes/tt.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
-=======
-            background: url(../imagenes/fondo.jpg) no-repeat;
-            background-attachment: fixed;
-            background-size: cover;   
-            font-family: 'Open Sans', sans-serif;
-            }
->>>>>>> origin/cristhian9403
 
-=======
->>>>>>> origin/cristhian9403
 .sobre {
 max-width:70%;
 max-height:70%;
