@@ -24,8 +24,13 @@ html,
     background-position: 100% 100%;
     font-family: 'Open Sans', sans-serif;
 }
-
-
+.fondosegundo{
+     background: url(../imagenes/peques.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 100%;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .fondotercero{
     background: url(../imagenes/tia.jpg) no-repeat;
@@ -34,7 +39,21 @@ html,
     background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
+.fondocuarto{
+    background: url(../imagenes/siiko.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.fondoquinto{
+    background: url(../imagenes/casa.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Open Sans', sans-serif;
+}
 =======
             background: url(../imagenes/fondo.jpg) no-repeat;
             background-attachment: fixed;
