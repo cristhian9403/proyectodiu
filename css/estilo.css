@@ -1,11 +1,9 @@
 html,
 
 .fondo{
-<<<<<<< HEAD
     background: url(../imagenes/fondo.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,10 +11,10 @@ html,
     background: url(../imagenes/fondo.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 50% 50%;
     font-family: 'Open Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 .fondoprimero{
      background: url(../imagenes/tia.jpg) no-repeat;
     background-attachment: fixed;
@@ -62,6 +60,8 @@ html,
             }
 >>>>>>> origin/cristhian9403
 
+=======
+>>>>>>> origin/cristhian9403
 .sobre {
 max-width:70%;
 max-height:70%;
