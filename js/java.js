@@ -35,13 +35,54 @@ function createsoundbite(sound){
 }
 
 //Initialize two sound clips with 1 fallback file each:
-var letraA=createsoundbite("whistle.ogg", "sonidos/letra.wav")
+
 var clicksound=createsoundbite("click.ogg", "click.mp3")
 var primero=createsoundbite("whistle.ogg", "sonidos/.wav")
 var segundo=createsoundbite("whistle.ogg", "sonidos/.wav")
 var tercero=createsoundbite("whistle.ogg", "sonidos/.wav")
 var cuarto=createsoundbite("whistle.ogg", "sonidos/.wav")
 var quinto=createsoundbite("whistle.ogg", "sonidos/.wav")
+
+var A=createsoundbite("whistle.ogg", "../sonidos/poof.wav")
+var B=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var C=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var D=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var E=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var F=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var G=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var H=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var I=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var J=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var K=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var L=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var M=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var N=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var O=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var P=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var Q=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var R=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var S=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var T=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var U=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var V=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var W=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var X=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var Y=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var Z=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+
+var SALUDO1=createsoundbite("whistle.ogg", "../sonidos/poof.wav")
+var SALUDO2=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var SALUDO3=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var SALUDO4=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var SALUDO5=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var SALUDO6=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+
+var DESPEDIDA1=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var DESPEDIDA2=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var DESPEDIDA3=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var DESPEDIDA4=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+var DESPEDIDA5=createsoundbite("whistle.ogg", "../sonidos/letra.wav")
+
 
 
 
