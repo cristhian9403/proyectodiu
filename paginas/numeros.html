@@ -32,10 +32,12 @@
                 </div>
             </div>
         </section>
+        <table class="table table-hover"><tr><td onclick="mostrarA(this); return false">1 a el 10</td></tr></table>
+			
 
-	<div class="row">
-		<div class="span12">
-			<table class="table ">
+	<div class="row" id="A" style="visibility:hidden">		
+		
+			<table class="table table-hover">				
 				<tr>
 					<td></td>								
 					<td>INGL&#201;S</td>
@@ -181,7 +183,7 @@
 					<td>
 						GR&#205;IN
 					</td>
-				</tr>
+				</tr>			
 				<tr onclick="a10.playclip()">
 					<td>
 						10
@@ -196,6 +198,11 @@
 						V&#193;IOLET
 					</td>
 				</tr>
+				</table>
+				</div>
+				<table class="table table-hover"><tr><td onclick="mostrarB(this); return false">11 a el 20</td></tr></table>
+				<div class="row" id="B" style="visibility:hidden">		
+				<table class="table table-hover" >
 				<tr onclick="a11.playclip()">
 					<td>
 						11
@@ -278,7 +285,8 @@
 					</td>
 					<td>
 						M&#193;RUN
-									</tr>
+					</td>
+					</tr>
 				<tr onclick="a17.playclip()">
 					<td>
 						17
@@ -336,8 +344,9 @@
 					</td>
 				</tr>				
 			</table>
-		</div>
-	</div>
+			</div>
+		
+	
 
 	</body>
 </head>
