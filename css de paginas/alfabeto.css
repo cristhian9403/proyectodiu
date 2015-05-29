@@ -10,7 +10,7 @@ html,
 
 .texto1{
 	color: lime;
-     -webkit-text-fill-color: yellowgreen;
+     -webkit-text-fill-color: black;
 -webkit-text-stroke: 3px white;
 	font: bold 450%/100%  Kristen ITC, Sans-Serif;
 }
