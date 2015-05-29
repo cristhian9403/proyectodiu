@@ -7,3 +7,10 @@ html,
                 background-size: cover; 
                 font-family: 'Open Sans', sans-serif;
             }
+
+.texto1{
+	color: lime;
+     -webkit-text-fill-color: yellowgreen;
+-webkit-text-stroke: 3px white;
+	font: bold 450%/100%  Kristen ITC, Sans-Serif;
+}
