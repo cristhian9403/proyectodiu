@@ -30,7 +30,7 @@ function createsoundbite(sound){
 		return html5audio
 	}
 	else{
-		return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}
+		return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}} 
 	}
 }
 
@@ -55,7 +55,7 @@ var a14=createsoundbite("whistle.ogg", "../sonidos/fourteen.ogg")
 var a15=createsoundbite("whistle.ogg", "../sonidos/fifteen.ogg")
 var a16=createsoundbite("whistle.ogg", "../sonidos/sixteen.ogg")
 var a17=createsoundbite("whistle.ogg", "../sonidos/seventeen.ogg")
-var a18=createsoundbite("whistle.ogg", "../sonidos/eightteen.ogg")
+var a18=createsoundbite("whistle.ogg", "../sonidos/eighteen.ogg")
 var a19=createsoundbite("whistle.ogg", "../sonidos/nineteen.ogg")
 var a20=createsoundbite("whistle.ogg", "../sonidos/twenty.ogg")
 
