@@ -74,6 +74,18 @@ max-height:70%;
 	font: bold 450%/100%  Kristen ITC, Sans-Serif;
 }
 
+.acordeon div{
+    background-color: rgba(255,255,255,0.1) !important;
+    color: black !important;
+}
+
+.panel-cabeza{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
 
 
 
