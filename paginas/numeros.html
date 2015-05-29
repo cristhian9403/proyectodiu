@@ -32,11 +32,22 @@
                 </div>
             </div>
         </section>
-        <table class="table table-hover"><tr><td onclick="mostrarA(this); return false">1 a el 10</td></tr></table>
-			
 
-	<div class="row" id="A" style="visibility:hidden">		
-		
+        <table class="table table-hover">				
+				<tr>
+					<td onclick="mostrarA(this); return false">0 a el 10</td>
+				</tr>
+				<tr>
+					<td onclick="mostrarB(this); return false">11 a el 10</td>					
+				</tr>
+			</table>
+
+      
+
+      
+			
+<div class="row, tab-content">
+	<div class="span6" id="A" style="visibility:hidden">			
 			<table class="table table-hover">				
 				<tr>
 					<td></td>								
@@ -200,9 +211,14 @@
 				</tr>
 				</table>
 				</div>
-				<table class="table table-hover"><tr><td onclick="mostrarB(this); return false">11 a el 20</td></tr></table>
-				<div class="row" id="B" style="visibility:hidden">		
+				<div class="span6" id="B" style="visibility:hidden">		
 				<table class="table table-hover" >
+				<tr>
+					<td></td>								
+					<td>INGL&#201;S</td>
+					<td>ESPA&#209;OL</td>	
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="a11.playclip()">
 					<td>
 						11
@@ -214,7 +230,7 @@
 						ONCE
 					</td>
 					<td>
-						N&#201;IVI BLÚU
+						N&#201;IVI BL&#218;U
 					</td>
 				</tr>
 				<tr onclick="a12.playclip()">
@@ -345,9 +361,7 @@
 				</tr>				
 			</table>
 			</div>
-		
-	
-
+			</div>
 	</body>
 </head>
 </html>
