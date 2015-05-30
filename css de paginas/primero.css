@@ -7,3 +7,8 @@ html,
                 font-family: 'Open Sans', sans-serif;
             }
   
+  .texto1{
+     -webkit-text-fill-color:white;
+-webkit-text-stroke: 4px black;
+	font: bold 210%/100%  Kristen ITC, Sans-Serif;
+}
