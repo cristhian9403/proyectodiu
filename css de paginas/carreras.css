@@ -1,0 +1,14 @@
+html,
+
+
+.fondocarreras{
+                background: url(../imagenes/carreras.PNG) no-repeat;
+                background-attachment: fixed;
+                background-size: cover; 
+                font-family: 'Open Sans', sans-serif;
+            }
+.texto1{
+     -webkit-text-fill-color:white;
+-webkit-text-stroke: 4px black ;
+	font: bold 220%/100%  Kristen ITC, Sans-Serif;
+}
