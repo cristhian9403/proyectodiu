@@ -17,6 +17,11 @@
 	<script src="../js/java.js"></script>
 	<script src="../js/sonidosanimales.js"></script>
 
+	<link rel="stylesheet" href="elevator/css/bootstrap.min.css">
+	<link rel="stylesheet" href="elevator/css/bootstrap-theme.min.css">
+	<script src="elevator/js/jquery.min.js"></script>
+	<script src="elevator/js/bootstrap.min.js"></script>
+
 </head>
 <body class="fondoanimales">
 
@@ -33,8 +38,16 @@
             </div>
         </section> 
 
-	<div class="row">
-		<div class="span12">
+<div class="bs-example acordeon">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-cabeza">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">animales domésticos (Domestic animals)</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
 			<table class="table table-hover">
 				<tr>
 					<td></td>
@@ -47,6 +60,25 @@
 					<td>GATO</td>
 					<td>CAT</td>
 					<td>CAT</td>
+				</tr>
+			</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Los Animales de Granja</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="Dog.playclip()">
 					<td></td>
@@ -124,6 +156,25 @@
 					<td>OVEJA</td>
 					<td>SHEEP</td>
 					<td>SHIP</td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Los Mamíferos (Mammals)</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="Antelope.playclip()">
 					<td></td>
@@ -298,6 +349,25 @@
 					<td>ZEBRA</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Los Mamíferos Marinos</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Dolphin.playclip()">
 					<td></td>
 					<td>DELFIN</td>
@@ -333,6 +403,25 @@
 					<td>BALLENA</td>
 					<td>WHALE</td>
 					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Los Pájaros / Las Aves (Birds)</a>
+                </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="Blackbird.playclip()">
 					<td></td>
@@ -430,6 +519,25 @@
 					<td>WOODPECKER</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Los Peces (Fish)</a>
+                </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Anchovy.playclip()">
 					<td></td>
 					<td>ANCHOA</td>
@@ -508,6 +616,25 @@
 					<td>STURGEON</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Los Reptiles</a>
+                </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Crocodile.playclip()">
 					<td></td>
 					<td>COCODRILO</td>
@@ -550,11 +677,49 @@
 					<td>VIPER</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Los Anfibios (Amphibians)</a>
+                </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Frong.playclip()">
 					<td></td>
 					<td>RANA</td>
 					<td>FRONG</td>
 					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Los Insectos (Insects)</a>
+                </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="Ant.playclip()">
 					<td></td>
@@ -664,6 +829,25 @@
 					<td>WASP</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Otros Animales Terrestres</a>
+                </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Caterpillar.playclip()">
 					<td></td>
 					<td>ORUGA</td>
@@ -706,6 +890,25 @@
 					<td>WORN</td>
 					<td></td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Otros Animales Marinos</a>
+                </h4>
+            </div>
+            <div id="collapse11" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="Clam.playclip()">
 					<td></td>
 					<td>ALMEJA</td>
@@ -741,10 +944,12 @@
 					<td>CALAMAR</td>
 					<td>SQUID</td>
 					<td></td>
-				</tr>				
-			</table>
-		</div>
-	</div>
+				</table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 	</body>
 </head>
 </html>
