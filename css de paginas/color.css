@@ -8,8 +8,7 @@ html,
                 font-family: 'Open Sans', sans-serif;
             }
 .texto1{
-	color: lime;
-     -webkit-text-fill-color: black;
--webkit-text-stroke: 4px white;
-	font: bold 250%/100%  Kristen ITC, Sans-Serif;
+     -webkit-text-fill-color:white;
+-webkit-text-stroke: 4px  black;
+	font: bold 220%/100%  Kristen ITC, Sans-Serif;
 }
