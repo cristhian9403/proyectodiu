@@ -11,6 +11,6 @@ html,
 .texto1{
 	color: lime;
      -webkit-text-fill-color: black;
--webkit-text-stroke: 3px white;
-	font: bold 450%/100%  Kristen ITC, Sans-Serif;
+-webkit-text-stroke: 4px white;
+	font: bold 250%/100%  Kristen ITC, Sans-Serif;
 }
