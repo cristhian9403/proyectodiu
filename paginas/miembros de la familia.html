@@ -18,6 +18,11 @@
 	<script src="../js/java.js"></script>
 	<script src="../js/sonidoasmiembrosfamilia.js"></script>
 
+	<link rel="stylesheet" href="elevator/css/bootstrap.min.css">
+	<link rel="stylesheet" href="elevator/css/bootstrap-theme.min.css">
+	<script src="elevator/js/jquery.min.js"></script>
+	<script src="elevator/js/bootstrap.min.js"></script>
+
 </head>
 <body class="fondofamilia">
 	<section id="logo-section" class="text-center">
@@ -32,9 +37,16 @@
             </div>
         </section>
 
-	<div class="row">
-
-		<div class="span12">
+<div class="bs-example acordeon">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-cabeza">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">La familia de origen</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
 			<table class="table table-hover">
 				<tr>
 					<td>ESPA&#209;OL</td>					
@@ -86,6 +98,25 @@
 					</td>
 				</tr>
 			</div>
+			</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">La segunda familia</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 			<div class="span6" id="A" style="visibility:hidden">
 				<tr onclick="WIFE.playclip()">
 					<td>
@@ -131,6 +162,25 @@
 						SAN 
 					</td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Los abuelos</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="GRANDMOTHER.playclip()">
 					<td>
 						LA ABUELA
@@ -152,6 +202,25 @@
 					<td>
 						 GRANDFADA 
 					</td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Los nietos</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="NIETOS.playclip()">
 					<td>
@@ -185,6 +254,25 @@
 					<td>
 						 GRANDD&#210;TA  
 					</td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Los tíos y los primos</a>
+                </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>				
 				<tr onclick="AUNT.playclip()">
 					<td>
@@ -230,6 +318,25 @@
 						 K&#210;SIN  
 					</td>
 				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Los sobrinos</a>
+                </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
 				<tr onclick="NIECE.playclip()">
 					<td>
 						LA SOBRINA
@@ -251,6 +358,25 @@
 					<td>
 						 N&#201;FIU 
 					</td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">La familia política</a>
+                </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
 				</tr>
 				<tr onclick="SUEGRA.playclip()">
 					<td>
@@ -319,8 +445,11 @@
 					</td>
 				</tr>
 			</table>
-		</div>
-	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 	</body>
 </head>
 </html>
