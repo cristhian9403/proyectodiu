@@ -8,6 +8,6 @@ html,
             }
 .texto1{
      -webkit-text-fill-color:white;
--webkit-text-stroke: 4px Orange		;
+-webkit-text-stroke: 4px green		;
 	font: bold 220%/100%  Kristen ITC, Sans-Serif;
 }
