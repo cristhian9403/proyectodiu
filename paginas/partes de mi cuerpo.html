@@ -16,7 +16,12 @@
 
 
 	<script src="../js/java.js"></script>
-	<script src="../js/sonidoscolor.js"></script>
+	<script src="../js/sonidospartesdecuerpo.js"></script>
+
+	<link rel="stylesheet" href="elevator/css/bootstrap.min.css">
+	<link rel="stylesheet" href="elevator/css/bootstrap-theme.min.css">
+	<script src="elevator/js/jquery.min.js"></script>
+	<script src="elevator/js/bootstrap.min.js"></script>
 
 </head>
 <body class="fondocuerpo">
@@ -34,7 +39,492 @@
             </div>
         </section>
 
-	
+
+        <div class="bs-example acordeon">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-cabeza">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Partes del cuerpo</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+			<table class="table table-hover">
+				<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Arm.playclip()">
+					<td></td>
+					<td>BRAZO</td>
+					<td>ARM</td>
+					<td></td>
+				</tr>
+				<tr onclick="Body.playclip()">
+					<td></td>
+					<td>CUERPO</td>
+					<td>BODY</td>
+					<td></td>
+				</tr>
+				<tr onclick="Leg.playclip()">
+					<td></td>
+					<td>PIERNA</td>
+					<td>LEG</td>
+					<td></td>
+				</tr>
+				<tr onclick="Trunk.playclip()">
+					<td></td>
+					<td>TRONCO</td>
+					<td>TRUNK</td>
+					<td></td>
+				</tr>
+				<tr onclick="Head.playclip()">
+					<td></td>
+					<td>CABEZA</td>
+					<td>HEAD</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Partes de la cabeza y de la cara</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Beard.playclip()">
+					<td></td>
+					<td>BARBA</td>
+					<td>BEARD</td>
+					<td></td>
+				</tr>
+				<tr onclick="Cheek.playclip()">
+					<td></td>
+					<td>MEJILLLA</td>
+					<td>CHEEK</td>
+					<td></td>
+				</tr>
+				<tr onclick="Chin.playclip()">
+					<td></td>
+					<td>BARBILLA</td>
+					<td>CHIN</td>
+					<td></td>
+				</tr>
+				<tr onclick="Ear.playclip()">
+					<td></td>
+					<td>OREJA</td>
+					<td>EAR</td>
+					<td></td>
+				</tr>
+				<tr onclick="Eye.playclip()">
+					<td></td>
+					<td>OJO</td>
+					<td>EYE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Eyebrow.playclip()">
+					<td></td>
+					<td>CEJA</td>
+					<td>EYEBROW</td>
+					<td></td>
+				</tr>
+				<tr onclick="Eyelash.playclip()">
+					<td></td>
+					<td>PESTAÑA</td>
+					<td>EYELASH</td>
+					<td></td>
+				</tr>
+				<tr onclick="Face.playclip()">
+					<td></td>
+					<td>CARA</td>
+					<td>FACE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Hair.playclip()">
+					<td></td>
+					<td>PELO</td>
+					<td>HAIR</td>
+					<td></td>
+				</tr>
+				<tr onclick="Lip.playclip()">
+					<td></td>
+					<td>LABIO</td>
+					<td>LIP</td>
+					<td></td>
+				</tr>
+				<tr onclick="Mousteche.playclip()">
+					<td></td>
+					<td>BIGOTE</td>
+					<td>MOUSTACHE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Mouth.playclip()">
+					<td></td>
+					<td>BOCA</td>
+					<td>MOUTH</td>
+					<td></td>
+				</tr>
+				<tr onclick="Nose.playclip()">
+					<td></td>
+					<td>NARIZ</td>
+					<td>NOSE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Tongue.playclip()">
+					<td></td>
+					<td>LENGUA</td>
+					<td>TONGUE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Tooth.playclip()">
+					<td></td>
+					<td>DIENTE</td>
+					<td>TOOTH</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Partes del tronco</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Anus.playclip()">
+					<td></td>
+					<td>ANO</td>
+					<td>ANUS</td>
+					<td></td>
+				</tr>
+				<tr onclick="Back.playclip()">
+					<td></td>
+					<td>ESPALDA</td>
+					<td>BACK</td>
+					<td></td>
+				</tr>
+				<tr onclick="Belly.playclip()">
+					<td></td>
+					<td>TRIPA</td>
+					<td>BELLY</td>
+					<td></td>
+				</tr>
+				<tr onclick="Breast.playclip()">
+					<td></td>
+					<td>TETA</td>
+					<td>BREAST</td>
+					<td></td>
+				</tr>
+				<tr onclick="Chest.playclip()">
+					<td></td>
+					<td>PECHO</td>
+					<td>CHEST</td>
+					<td></td>
+				</tr>
+				<tr onclick="Hip.playclip()">
+					<td></td>
+					<td>CADERA</td>
+					<td>HIP</td>
+					<td></td>
+				</tr>
+				<tr onclick="Navel.playclip()">
+					<td></td>
+					<td>OMBLIGO</td>
+					<td>NAVEL</td>
+					<td></td>
+				</tr>
+				<tr onclick="Neck.playclip()">
+					<td></td>
+					<td>CUELLO</td>
+					<td>NECK</td>
+					<td></td>
+				</tr>
+				<tr onclick="Penis.playclip()">
+					<td></td>
+					<td>PENE</td>
+					<td>PENIS</td>
+					<td></td>
+				</tr>
+				<tr onclick="Shoulder.playclip()">
+					<td></td>
+					<td>HOMBRO</td>
+					<td>SHOULDER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Testicle.playclip()">
+					<td></td>
+					<td>TESTÍCULO</td>
+					<td>TESTICLE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Vagina.playclip()">
+					<td></td>
+					<td>VAGINA</td>
+					<td>VAGINA</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Partes del brazo</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Armpit.playclip()">
+					<td></td>
+					<td>SOBACO</td>
+					<td>ARMPIT</td>
+					<td></td>
+				</tr>
+				<tr onclick="Elbow.playclip()">
+					<td></td>
+					<td>CODO</td>
+					<td>ELBOW</td>
+					<td></td>
+				</tr>
+				<tr onclick="Finger.playclip()">
+					<td></td>
+					<td>DEDO DE LA MANO</td>
+					<td>FINGER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Hand.playclip()">
+					<td></td>
+					<td>MANO</td>
+					<td>HAND</td>
+					<td></td>
+				</tr>
+				<tr onclick="Nail.playclip()">
+					<td></td>
+					<td>UÑA</td>
+					<td>NAIL</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Los dedos de la mano</a>
+                </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Thumb.playclip()">
+					<td></td>
+					<td>PULGAR</td>
+					<td>THUMB</td>
+					<td></td>
+				</tr>
+				<tr onclick="Indexfinger.playclip()">
+					<td></td>
+					<td>DEDO INDICE</td>
+					<td>INDEX FINGER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Middlefinger.playclip()">
+					<td></td>
+					<td>DEDO CORAZON</td>
+					<td>MIDDLE FINGER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Ringfinger.playclip()">
+					<td></td>
+					<td>DEDO ANULAR</td>
+					<td>RING FINGER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Litlefinger.playclip()">
+					<td></td>
+					<td>MEÑIQUE</td>
+					<td>LITLE FINGER</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Las partes de la pierna</a>
+                </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Foot.playclip()">
+					<td></td>
+					<td>PIE</td>
+					<td>FOOT</td>
+					<td></td>
+				</tr>
+				<tr onclick="Knee.playclip()">
+					<td></td>
+					<td>RODILLA</td>
+					<td>KNEE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Toe.playclip()">
+					<td></td>
+					<td>DEDE DEL PIE</td>
+					<td>TOE</td>
+					<td></td>
+				</tr>
+				</table>
+				</div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-cabeza ">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Los Órganos</a>
+                </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<table class="table table-hover">
+                		<tr>
+					<td></td>
+					<td>ESPA&#209;OL</td>					
+					<td>INGL&#201;S</td>
+					<td>SE PRONUNCIA</td>
+				</tr>
+				<tr onclick="Blood.playclip()">
+					<td></td>
+					<td>SANGRE</td>
+					<td>BLOOD</td>
+					<td></td>
+				</tr>
+				<tr onclick="Brain.playclip()">
+					<td></td>
+					<td>CEREBRO</td>
+					<td>BRAIN</td>
+					<td></td>
+				</tr>
+				<tr onclick="Hear.playclip()">
+					<td></td>
+					<td>CORAZÓN</td>
+					<td>HEAR</td>
+					<td></td>
+				</tr>
+				<tr onclick="Kidney.playclip()">
+					<td></td>
+					<td>RIÑÓN</td>
+					<td>KIDNEY</td>
+					<td></td>
+				</tr>
+				<tr onclick="Largeintestine.playclip()">
+					<td></td>
+					<td>INTESTINO GRUESO</td>
+					<td>LARGE INTESTINE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Liver.playclip()">
+					<td></td>
+					<td>HIGADO</td>
+					<td>LIVER</td>
+					<td></td>
+				</tr>
+				<tr onclick="Lung.playclip()">
+					<td></td>
+					<td>PULMÓN</td>
+					<td>LUNG</td>
+					<td></td>
+				</tr>
+				<tr onclick="Muscle.playclip()">
+					<td></td>
+					<td>MÚSCULO</td>
+					<td>MUSCLE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Skeleton.playclip()">
+					<td></td>
+					<td>ESQUELETO</td>
+					<td>SKELETON</td>
+					<td></td>
+				</tr>
+				<tr onclick="Skin.playclip()">
+					<td></td>
+					<td>PIEL</td>
+					<td>SKIN</td>
+					<td></td>
+				</tr>
+				<tr onclick="Smallintestine.playclip()">
+					<td></td>
+					<td>INTESTINO DELGADO</td>
+					<td>SMALL INTESTINE</td>
+					<td></td>
+				</tr>
+				<tr onclick="Spleen.playclip()">
+					<td></td>
+					<td>BAZO</td>
+					<td>SPLEEN</td>
+					<td></td>
+				</tr>
+				<tr onclick="Stomach.playclip()">
+					<td></td>
+					<td>ESTOMAGO</td>
+					<td>STOMACH</td>
+					<td></td>
+				</tr>
+				</table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
 	</body>
 </head>
 </html>
