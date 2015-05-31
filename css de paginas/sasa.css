@@ -2,6 +2,7 @@ html,
 
 
 .fondosasa{
+                background: url(../imagenes/saa.jpg) no-repeat;
                 background-attachment: fixed;
                 background-size: cover; 
                 font-family: 'Open Sans', sans-serif;
@@ -11,4 +12,3 @@ html,
 -webkit-text-stroke: 4px green;
 	font: bold 190%/100%  Kristen ITC, Sans-Serif;
 }
-
