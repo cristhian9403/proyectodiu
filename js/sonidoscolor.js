@@ -1,6 +1,6 @@
 // Mouseover/ Click sound effect- by JavaScript Kit (www.javascriptkit.com)
 // Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
-
+ 
 //** Usage: Instantiate script by calling: var uniquevar=createsoundbite("soundfile1", "fallbackfile2", "fallebacksound3", etc)
 //** Call: uniquevar.playclip() to play sound
 
