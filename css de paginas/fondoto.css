@@ -1,12 +1,8 @@
 html,
 
 
-.fondosasa{
-<<<<<<< HEAD
-                background: url(../imagenes/saa.jpg) no-repeat;
-=======
-				background: url(../imagenes/saa.jpg) no-repeat;
->>>>>>> origin/cristhian9403
+.fondoto{
+                background: url(../imagenes/kiki.gif) no-repeat;
                 background-attachment: fixed;
                 background-size: cover; 
                 font-family: 'Open Sans', sans-serif;
@@ -14,5 +10,5 @@ html,
 .texto1{
      -webkit-text-fill-color:white;
 -webkit-text-stroke: 4px green;
-	font: bold 190%/100%  Kristen ITC, Sans-Serif;
+	font: bold 220%/100%  Kristen ITC, Sans-Serif;
 }
