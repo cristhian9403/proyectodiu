@@ -6,3 +6,8 @@ html,
                 background-size: cover; 
                 font-family: 'Open Sans', sans-serif;
             }
+.texto1{
+     -webkit-text-fill-color:white;
+-webkit-text-stroke: 4px black ;
+	font: bold 200%/100%  Kristen ITC, Sans-Serif;
+}
