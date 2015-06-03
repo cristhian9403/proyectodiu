@@ -1,0 +1,8 @@
+div.accesible {
+    color: #000000; /* negro. También puedo poner black */
+    background-color:#FFFFFF; /* blanco */
+}
+/* si el H1 está en un body con clase accesible, también cambia */
+.accesible td {
+    color: #FD0404; /* rojo */
+}

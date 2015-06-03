@@ -87,6 +87,16 @@ max-height:70%;
 }
 
 
+body {
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    color: red;
+}
+
+
 
 
 
