@@ -18,6 +18,9 @@
 	<script src="../js/java.js"></script>
 	<script src="../js/sonidoscolor.js"></script>
 
+	<script src="../js/accesibilidad.js"></script>
+	<link href="../css de paginas/accesibilidad.css" rel="stylesheet">
+
 </head>
 <body class="fondociudad">
 
@@ -27,8 +30,11 @@
   <li class="active">Parts Of The City</li>
 </ol>
 
-	<a href="../primerinterfaz.html">inicio</a>
-	<a href="cuarto.html">cuarto</a>
+<div id="bar">
+Letra: <a href="javascript:;" onclick="ResizeText('8');" id="SmallFont">Pequeña</a>
+<a href="javascript:;" onclick="ResizeText('10');" id="MediumFont">Normal</a> <a
+href="javascript:;" onclick="ResizeText('12');" id="LargeFont">Grande</a>
+</div>
 
 	<section id="logo-section" class="text-center">
             <div class="container">
@@ -43,7 +49,7 @@
         </section>
 
 
-        	<div class="row">
+        	<div class="row" id="PostContent">
 		<div class="span12">
 			<table class="table table-hover">
 				<tr>

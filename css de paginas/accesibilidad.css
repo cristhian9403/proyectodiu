@@ -1,8 +1,26 @@
-div.accesible {
-    color: #000000; /* negro. También puedo poner black */
-    background-color:#FFFFFF; /* blanco */
+*  {
+   font-size: 12pt; font-family: verdana;   
 }
-/* si el H1 está en un body con clase accesible, también cambia */
-.accesible td {
-    color: #FD0404; /* rojo */
+
+h1 {
+   font-size: 18pt;  
+}
+
+#MediumFont  {
+  background-color: orange;   
+}
+
+#bar {
+  text-align: right;  border: solid 1px orange; padding: 5px; margin-bottom: 10px;  
+}
+
+#menu  {
+  background-color: Green; width: 29%;  float: left; 
+}
+
+#PostContent  {
+padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }

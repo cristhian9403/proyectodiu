@@ -23,6 +23,9 @@
 	<script src="elevator/js/jquery.min.js"></script>
 	<script src="elevator/js/bootstrap.min.js"></script>
 
+	<script src="../js/accesibilidad.js"></script>
+	<link href="../css de paginas/accesibilidad.css" rel="stylesheet">
+
 </head>
 <body class="fondocuerpo">
 
@@ -31,6 +34,12 @@
   <li><a href="tercero.html">tercero</a></li>
   <li class="active">Parts Of The City</li>
 </ol>
+
+<div id="bar">
+Letra: <a href="javascript:;" onclick="ResizeText('8');" id="SmallFont">Pequeña</a>
+<a href="javascript:;" onclick="ResizeText('10');" id="MediumFont">Normal</a> <a
+href="javascript:;" onclick="ResizeText('12');" id="LargeFont">Grande</a>
+</div>
 
 
 	<section id="logo-section" class="text-center">
@@ -46,7 +55,7 @@
         </section>
 
 
-        <div class="bs-example acordeon">
+        <div class="bs-example acordeon" id="PostContent">
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
             <div class="panel-cabeza">

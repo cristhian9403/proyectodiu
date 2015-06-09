@@ -18,6 +18,9 @@
 	<script src="../js/java.js"></script>
 	<script src="../js/sonidoscolor.js"></script>
 
+	<script src="../js/accesibilidad.js"></script>
+	<link href="../css de paginas/accesibilidad.css" rel="stylesheet">
+
 </head>
 <body class="fondoemocio">
 
@@ -26,6 +29,12 @@
   <li><a href="cuarto.html">cuarto</a></li>
   <li class="active">Emocions</li>
 </ol>
+
+<div id="bar">
+Letra: <a href="javascript:;" onclick="ResizeText('8');" id="SmallFont">Pequeña</a>
+<a href="javascript:;" onclick="ResizeText('10');" id="MediumFont">Normal</a> <a
+href="javascript:;" onclick="ResizeText('12');" id="LargeFont">Grande</a>
+</div>
 
 
 
@@ -41,7 +50,7 @@
             </div>
         </section>
 
-        	<div class="row">
+        	<div class="row" id="PostContent">
 		<div class="span12">
 			<table class="table table-hover">
 				<tr>

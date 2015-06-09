@@ -18,6 +18,9 @@
 	<script src="../js/java.js"></script>
 	<script src="../js/sonidospresente.js"></script>
 
+	<script src="../js/accesibilidad.js"></script>
+	<link href="../css de paginas/accesibilidad.css" rel="stylesheet">
+
 </head>
 <body class="fondosimple">
 
@@ -26,6 +29,12 @@
   <li><a href="quinto.html">quinto</a></li>
   <li class="active">Present Simple</li>
 </ol>
+
+<div id="bar">
+Letra: <a href="javascript:;" onclick="ResizeText('8');" id="SmallFont">Pequeña</a>
+<a href="javascript:;" onclick="ResizeText('10');" id="MediumFont">Normal</a> <a
+href="javascript:;" onclick="ResizeText('12');" id="LargeFont">Grande</a>
+</div>
 
 
 	<section id="logo-section" class="text-center">
@@ -49,7 +58,7 @@
         	</P>
         </div>
 
-             <div >
+             <div id="PostContent">
 			<table class="table table-hover">
 				<tr>
 					<td></td>
