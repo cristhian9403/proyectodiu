@@ -10,7 +10,7 @@ html,
 
 .texto1{
      -webkit-text-fill-color:white;
--webkit-text-stroke: 4px green;
+-webkit-text-stroke: 4px black;
 	font: bold 220%/100%  Kristen ITC, Sans-Serif;
 }
 
