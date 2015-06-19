@@ -161,6 +161,16 @@ function mostrar6(enla) {
   obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';  
 }
 
+function mostrar7(enla) {
+  obj = document.getElementById('SALUDO7');
+  obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';  
+}
+
+function mostrar8(enla) {
+  obj = document.getElementById('SALUDO8');
+  obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';  
+}
+
 function mostra1(enla) {
   obj = document.getElementById('DESPEDIDA1');
   obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';  
